@@ -63,7 +63,7 @@ header{
 
 
 .title{
-    font-size: calc(var(--sizefont)*2);
+    font-size: calc(var(--sizefont)*1.5);
 }
 .index{
     display: flex;
@@ -132,7 +132,7 @@ h3{
 }
 
 .skill{
-    width:calc(70% - 30px);
+    width: 80%;
     height: 4rem;
     margin:5px auto;
     padding:0 3%;
@@ -288,6 +288,12 @@ h2{
     
     .footer img{
         width: 40%;
+    }
+    img[src="logoivan.png"]{
+    visibility:hidden;
+    }
+    .contact-container{
+    grid-template-columns: 1fr;
     }
 }
 img[src="logoivan.png"]{
